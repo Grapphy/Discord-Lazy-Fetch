@@ -2,10 +2,10 @@
 Discord lazy fetch is a script for getting all members from a Discord server. Currently only bot accounts with [privileged members intents](https://discord.com/developers/docs/topics/gateway#privileged-intents) can get the full list of server members but this script allows you to request _most_ members using a self-bot account.
 
 ## Table of contents
-* [How does it works?](https://github.com/Grapphy/Discord-Lazy-Fetch/readme.md#how-does-it-works)
-* [Examples](https://github.com/Grapphy/Discord-Lazy-Fetch/readme.md#examples)
-* [Requirements](https://github.com/Grapphy/Discord-Lazy-Fetch/readme.md#requirements)
-* [Credits](https://github.com/Grapphy/Discord-Lazy-Fetch/readme.md#credits)
+* [How does it works?](https://github.com/Grapphy/Discord-Lazy-Fetch#how-does-it-works)
+* [Examples](https://github.com/Grapphy/Discord-Lazy-Fetch#examples)
+* [Requirements](https://github.com/Grapphy/Discord-Lazy-Fetch#requirements)
+* [Credits](https://github.com/Grapphy/Discord-Lazy-Fetch#credits)
 
 ## How does it works?
 Discord uses websockets for fetching online users from the server members list (and offline users if the server has less than 1k members). This script replicates the communication between the client and Discord's gateway to send OP code 14 (undocumented) for loading a range of members from a server.
