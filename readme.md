@@ -5,6 +5,7 @@ Discord lazy fetch is a script for getting all members from a Discord server. Cu
 * [How does it works?](https://github.com/Grapphy/Discord-Lazy-Fetch#how-does-it-works)
 * [Examples](https://github.com/Grapphy/Discord-Lazy-Fetch#examples)
 * [Requirements](https://github.com/Grapphy/Discord-Lazy-Fetch#requirements)
+* [Installation](https://github.com/Grapphy/Discord-Lazy-Fetch#installation)
 * [Credits](https://github.com/Grapphy/Discord-Lazy-Fetch#credits)
 
 ## How does it works?
@@ -84,4 +85,6 @@ pip install /path/to/repo
 ```
 
 ## Credits
+Credits to [@selwin](https://github.com/selwin) for [user_agents parser](https://github.com/selwin/python-user-agents) which this repo relies on.
+
 Created and maintained by [@Grapphy](https://github.com/grapphy). Feel free to contribute to this repo in any form.
