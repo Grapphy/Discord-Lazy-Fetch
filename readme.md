@@ -4,6 +4,7 @@ Discord lazy fetch is a script for getting all members from a Discord server. Cu
 ## Table of contents
 * [How does it works?](https://github.com/Grapphy/Discord-Lazy-Fetch#how-does-it-works)
 * [Examples](https://github.com/Grapphy/Discord-Lazy-Fetch#examples)
+* [Screenshots](https://github.com/Grapphy/Discord-Lazy-Fetch#screenshots)
 * [Requirements](https://github.com/Grapphy/Discord-Lazy-Fetch#requirements)
 * [Installation](https://github.com/Grapphy/Discord-Lazy-Fetch#installation)
 * [Credits](https://github.com/Grapphy/Discord-Lazy-Fetch#credits)
@@ -70,6 +71,11 @@ user_agent = "python requests"
 # Creating IDiscordWS object.
 wsclient = IDiscordWS(token=token, proxy=proxy, proxy_auth=auth, user_agent=user_agent)
 ```
+
+## Screenshots
+*I prefer to hide users ID and discriminators due to sensitive data.*
+
+![158632781534](https://user-images.githubusercontent.com/76534455/146687890-195f1f4e-6f34-4d86-8175-a9ea2e9e3d58.png)
 
 ## Requirements
 You might be required to have `aiohttp` and `ua_parser` installed.
